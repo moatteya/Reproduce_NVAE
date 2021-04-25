@@ -12,7 +12,6 @@ import torchvision.datasets as dset
 import torchvision.transforms as transforms
 import os
 import utils
-from lmdb_datasets import LMDBDataset
 from thirdparty.lsun import LSUN
 
 
