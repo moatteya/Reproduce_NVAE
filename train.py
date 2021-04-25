@@ -19,7 +19,6 @@ from model import AutoEncoder
 from thirdparty.adamax import Adamax
 import utils
 import datasets
-import os
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"]="2,3"  # specify which GPU(s) to be used
 
