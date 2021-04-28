@@ -1,0 +1,8 @@
+torch==1.6.0
+torchvision==0.7.0
+pillow==8.2
+matplotlib==3.3.4
+tensorboard==2.4.1 
+tensorboardX==2.2
+lmdb==1.1.1
+tfrecord==1.11
