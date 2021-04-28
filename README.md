@@ -32,5 +32,5 @@ Checkpoint for the MNIST model can be found in
 If you are modifying the code, you can use the following figure to map the code to the paper.
 
 <p align="center">
-    <img src="img/model_diagram.png" width="900">
+    <img src="supporting files /model_diagram.png" width="900">
 </p>
