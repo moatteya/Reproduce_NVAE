@@ -3,7 +3,7 @@
 NVAE is built in Python 3.7 using PyTorch 1.6.0. The following packages are also required:
 pillow 8.2, matplotlib 3.3.4, tensorboard 2.4.1 ,tensorboardX 2.2, lmdb 1.1.1, tfrecord 1.11
 
-##Training
+## Training
 Two 11-GB RTX 2080Ti GPUs are used for training NVAE on dynamically binarized MNIST. Training takes about 14 hours.
 ```shell script
 cd CODE_DIR
@@ -13,7 +13,7 @@ python train.py --data DATA_DIR/mnist --root CHECKPOINT_DIR --save EXPR_ID --dat
         --num_postprocess_blocks 2 --weight_decay_norm 1e-2 --num_channels_enc 32 --num_channels_dec 32 --num_nf 0 \
         --ada_groups --num_process_per_node 2 --use_se --res_dist --fast_adamax 
 ```
-##Evaluation 
+## Evaluation 
 You can use the following command to load a trained model and evaluate it on the test datasets:
 ```shell script
 cd $CODE_DIR
