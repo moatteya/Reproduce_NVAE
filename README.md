@@ -1,7 +1,9 @@
 # Reproduce_NVAE
 ## Requirements
-NVAE is built in Python 3.7 using PyTorch 1.6.0. The following packages are also required:
-pillow 8.2, matplotlib 3.3.4, tensorboard 2.4.1 ,tensorboardX 2.2, lmdb 1.1.1, tfrecord 1.11
+NVAE is built in Python 3.7 using PyTorch 1.6.0. Use the following command to install the requirements:
+```
+pip install -r requirements.txt
+``` 
 
 ## Training
 Two 11-GB RTX 2080Ti GPUs are used for training NVAE on dynamically binarized MNIST. Training takes about 14 hours.
